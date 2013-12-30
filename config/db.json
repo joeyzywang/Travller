@@ -1,0 +1,7 @@
+{
+  "username":"",
+  "password":"",
+  "port":27017,
+  "db": "commenter",
+  "host": "localhost"
+}
