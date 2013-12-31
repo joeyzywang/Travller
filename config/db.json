@@ -2,6 +2,6 @@
   "username":"",
   "password":"",
   "port":27017,
-  "db": "commenter",
+  "db": "travller",
   "host": "localhost"
 }
