@@ -1,8 +1,14 @@
 变量： 
-	listlinksPage
-	listlinksPage的变化规则 
-	listlinksPage里面的links的规则 
-	listlinks 存储的模型的名称
-	contentPage 处理的方法
-	content 的模型
-	mysql的配置
+	listlinksPage   
+
+	ConfigFile:
+		~listlinksPage的模式 				--- link_pattern
+		~listlinksPage的范围 				--- link_range
+		~listlinks 存储的模型的名称			--- model_name
+
+	Plugin:
+				
+		~listlinksPage里面的links的规则  				
+		detailedPage(contentPage) 处理的方法
+			video(content) Terminate rule
+			video(content) InsertSQL generate

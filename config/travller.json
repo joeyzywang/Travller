@@ -1,5 +1,11 @@
 {
 	"kkzy":{
-			
+			"model_name":"",
+			"link_pattern":"http://kkzy.cc/vodlist/?1-*.html",
+			"link_range_start":"1",
+			"link_range_end":"2",
+			"plugin_name":"kkzy",
+			"sql_foldername":"kkzy",
+			"sql_filename":"kkzy.sql"
 		}
 }
