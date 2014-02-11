@@ -1,0 +1,36 @@
+{
+  "name": "Travller",
+  "version": "0.1.0",
+  "description": "Traver web page to scrape sth I need",
+  "main": "travller.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "cheerio": "~0.12.4",
+    "commander": "~2.1.0",
+    "date-utils": "~1.2.15",
+    "iconv-lite": "~0.2.11",
+    "jsdom": "~0.8.10",
+    "konphyg": "~1.2.3",
+    "mysql": "~2.0.0-rc1",
+    "node-mysql": "~0.3.4",
+    "request": "~2.30.0",
+    "string": "~1.7.0",
+    "mongoose": "~3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeyzywang/Travller.git"
+  },
+  "keywords": [
+    "Travller"
+  ],
+  "author": "Joey Wang",
+  "license": "MIT"
+}
