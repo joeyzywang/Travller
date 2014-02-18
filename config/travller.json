@@ -25,10 +25,18 @@
 		},
 	"youku-tv":{
 			"model_name":"youkutv",
-			"link_pattern":"http://www.youku.com/v_olist/c_97_g__a__sg__mt__lg__q__s_1_r__u_0_pt_0_av_0_ag_0_sg__pr__h__p_*.html",
-			"link_range_start":3,
+			"link_pattern":"http://www.youku.com/v_olist/c_97_g__a__sg__mt__lg__q__s_6_r__u_0_pt_0_av_0_ag_0_sg__pr__h__d_1_p_*.html",
+			"link_range_start":1,
 			"link_range_end":29,
 			"plugin_name":"youku-tv",
+			"encoding":"utf8"
+		},
+	"bdzy":{
+			"model_name":"bdzy",
+			"link_pattern":"http://www.bdzy.cc/list/?0-*.html",
+			"link_range_start":1,
+			"link_range_end":19,
+			"plugin_name":"bdzy",
 			"encoding":"utf8"
 		}
 }
