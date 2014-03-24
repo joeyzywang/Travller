@@ -1,0 +1,4 @@
+1) ImageSave 的CronJob 每天运行一次,设置 global['IMG_FOLDER'] = '/Users/zhenwang/Work/apache_ws/luluysc/uploads'。
+   会以日期作为文件夹存放，所以比较好辨认。
+
+2) 每天4点半备份数据库的gxcms
